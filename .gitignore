@@ -1,0 +1,16 @@
+# Terraform cache
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Real tfvars
+terraform.tfvars
+*.auto.tfvars
+
+# Backend files with bucket names
+backend.tf
+
+# Crash logs
+crash.log
